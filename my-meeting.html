@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Business Visitor-B2B Arena</title>
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- data table -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css">
+	<!-- end data table -->
+
+	<link rel='stylesheet' href='https://unpkg.com/fullcalendar@5.1.0/main.min.css'>
+
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&amp;family=Nunito+Sans:wght@300;600;700;800;900&amp;display=swap"
+		rel="stylesheet">
+
+
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body class="hidden-bar-wrapper">
+
+	<div class="page-wrapper">
+
+		<!-- Preloader -->
+		<div class="preloader"></div>
+
+		<!-- Main Header-->
+		<header class="main-header header-style-three">
+
+
+
+			<!--Header-Upper-->
+			<div class="header-upper">
+				<div class="auto-container">
+					<div class="clearfix">
+
+						<div class="pull-left logo-box">
+							<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+						</div>
+
+						<div class="pull-right upper-right clearfix">
+
+							<!--Info Box-->
+							<div class="upper-column info-box">
+								<div class="icon-box"><span class="flaticon-pin"></span></div>
+								<ul>
+									<li><strong>Address</strong></li>
+									<li>125, Saudi Arabia Riyadh</li>
+								</ul>
+							</div>
+
+							<!--Info Box-->
+							<div class="upper-column info-box">
+								<div class="icon-box"><span class="flaticon-email-1"></span></div>
+								<ul>
+									<li><strong>E-Mail</strong></li>
+									<li>info@B2BArena.net</li>
+								</ul>
+							</div>
+
+
+							<!-- Notification Box -->
+							<div class="cart-box">
+								<div class="dropdown">
+									<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+											class="far fa-bell"></span><span class="total-cart">2</span></button>
+									<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu">
+										<!-- item -->
+										<div class="cart-product">
+											<div class="inner">
+												<h3>
+													<a href="#">Is an online meeting scheduler between business</a>
+												</h3>
+												<a href="#">
+													<span
+														class="arrow flaticon-long-arrow-pointing-to-the-right"></span>
+													Read More
+												</a>
+											</div>
+										</div>
+										<!-- item -->
+										<div class="cart-product">
+											<div class="inner">
+												<h3>
+													<a href="#">Is an online meeting scheduler between business</a>
+												</h3>
+												<a href="#">
+													<span
+														class="arrow flaticon-long-arrow-pointing-to-the-right"></span>
+													Read More
+												</a>
+											</div>
+										</div>
+										<!-- item -->
+										<div class="cart-product">
+											<div class="inner">
+												<h3>
+													<a href="#">Is an online meeting scheduler between business</a>
+												</h3>
+												<a href="#">
+													<span
+														class="arrow flaticon-long-arrow-pointing-to-the-right"></span>
+													Read More
+												</a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="profile-menu dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">My Profile <span
+										class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Account</a></li>
+									<li><a href="#">Account</a></li>
+									<li><a href="#">Account</a></li>
+								</ul>
+							</div>
+
+
+
+							<!--Info Box-->
+							<div class="upper-column info-box">
+
+								<div class="btn-box">
+									<a href="account.html" class="theme-btn btn-style-one">
+										<span class="txt">
+											Login / Register
+										</span>
+									</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--End Header Upper-->
+
+			<!--Header Lower-->
+			<div class="header-lower">
+
+				<div class="auto-container clearfix">
+					<div class="nav-outer clearfix">
+
+						<!-- Grid Box -->
+						<div class="grid-box navSidebar-button">
+							<a href="#" class="icon flaticon-menu-2"></a>
+						</div>
+						<!-- End Grid Box -->
+
+						<!-- Mobile Navigation Toggler -->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span></div>
+						<!-- Main Menu -->
+						<nav class="main-menu show navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse"
+									data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+									aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="current"><a href="index.html">Home</a></li>
+									<li><a href="added.html">Added Value</a></li>
+									<li><a href="benefits.html">Benefits For Organizers</a></li>
+									<li><a href="benefits-exhibitor.html">Benefits Exhibitors And Visitors</a></li>
+									<li><a href="area-facilities.html">Area Facilities</a></li>
+									<li><a href="contact.html">Contact us</a></li>
+
+								</ul>
+							</div>
+
+
+
+						</nav>
+						<!-- Main Menu End-->
+
+						<!-- Options Box -->
+						<!-- <div class="options-box clearfix">
+							<div class="option-inner">
+								<span class="icon flaticon-24-hours-2"></span>
+								<div class="number"><span>Call For Emergecy</span><a href="tel:+966(0)112111859">+966(0)
+										11 211 1859</a></div>
+							</div>
+						</div> -->
+
+					</div>
+				</div>
+			</div>
+			<!-- End Header Lower -->
+
+			<!-- Sticky Header  -->
+			<div class="sticky-header">
+				<div class="auto-container clearfix">
+					<!--Logo-->
+					<div class="logo pull-left">
+						<a href="index.html" title=""><img src="images/logo.png" alt="" title=""></a>
+					</div>
+					<!--Right Col-->
+					<div class="pull-right">
+						<!-- Main Menu -->
+						<nav class="main-menu">
+							<!--Keep This Empty / Menu will come through Javascript-->
+						</nav><!-- Main Menu End-->
+
+					</div>
+				</div>
+			</div><!-- End Sticky Menu -->
+
+			<!-- Mobile Menu  -->
+			<div class="mobile-menu">
+				<div class="menu-backdrop"></div>
+				<div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+
+				<nav class="menu-box">
+					<div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+					<div class="menu-outer">
+						<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+					</div>
+				</nav>
+			</div><!-- End Mobile Menu -->
+
+		</header>
+		<!-- End Main Header -->
+
+		<!-- Sidebar Cart Item -->
+		<div class="xs-sidebar-group info-group">
+			<div class="xs-overlay xs-bg-black"></div>
+			<div class="xs-sidebar-widget">
+				<div class="sidebar-widget-container">
+					<div class="widget-heading">
+						<a href="#" class="close-side-widget">
+							X
+						</a>
+					</div>
+					<div class="sidebar-textwidget">
+
+						<!-- Sidebar Info Content -->
+						<div class="sidebar-info-contents">
+							<div class="content-inner">
+								<div class="logo">
+									<a href="index.html"><img src="images/logo-w.png" alt="" /></a>
+								</div>
+								<div class="content-box">
+
+									<p class="text">It is your business to business meeting space in every exhibition
+										dedicated
+										to connect the business visitor and the exhibitor in one place.</p>
+									<a href="#" class="theme-btn btn-style-three"><span class="txt">Contact
+											Us</span></a>
+								</div>
+								<div class="contact-info">
+									<h2>Contact Info</h2>
+									<ul class="list-style-one">
+										<li><span class="icon flaticon-placeholder-2"></span> 125, Saudi Arabia Riyadh
+										</li>
+										<li><span class="icon flaticon-phone-call"></span>+966(0) 11 211 1859</li>
+										<li><span class="icon flaticon-email-1"></span>Info@B2BArena.Net</li>
+
+									</ul>
+								</div>
+								<!-- Social Box -->
+								<ul class="social-box">
+									<li class="facebook"><a href="#" class="fab fa-facebook-f"></a></li>
+									<li class="twitter"><a href="#" class="fab fa-twitter"></a></li>
+									<li class="linkedin"><a href="#" class="fab fa-instagram"></a></li>
+									<li class="instagram"><a href="#" class="fab fa-google-plus-g"></a></li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END sidebar widget item -->
+
+		<!--Page Title-->
+		<section class="page-title">
+			<div class="pattern-layer-one" style="background-image: url(images/background/pattern-16.png)"></div>
+			<div class="auto-container">
+				<h2> My Meeting</h2>
+				<ul class="page-breadcrumb">
+					<li><a href="index.html">home</a></li>
+					<li> My Meeting</li>
+				</ul>
+			</div>
+		</section>
+		<!--End Page Title-->
+
+		<section class="all-section style-two">
+
+			<div class="auto-container">
+
+				<div class="row justify-content-center">
+
+					<div class="col-lg-10 col-md-12">
+						<div class="content-calender">
+							<div id="calendar"></div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+
+		</section>
+
+
+
+		<!-- Main Footer -->
+		<footer class="main-footer style-two">
+			<div class="pattern-layer-one" style="background-image: url(images/background/pattern-7.png)"></div>
+			<div class="pattern-layer-two" style="background-image: url(images/background/pattern-8.png)"></div>
+			<!--Waves end-->
+			<div class="auto-container">
+				<!--Widgets Section-->
+				<div class="widgets-section">
+					<div class="row clearfix">
+
+
+
+
+						<div class="big-column col-lg-12 col-md-12 col-sm-12">
+							<div class="row clearfix">
+
+
+								<!-- Footer Column -->
+								<div class="footer-column col-lg-8 col-md-8 col-sm-12 margin-footer">
+									<div class="footer-widget contact-widget">
+										<div class="logo">
+											<a href="index.html"><img src="images/logo-w.png" alt="" /></a>
+										</div>
+										<ul class="contact-icone-footer">
+											<li>
+												<span class="icon flaticon-placeholder-2"></span>
+												<strong>Address</strong>
+												125, Saudi Arabia Riyadh
+											</li>
+											<li>
+												<span class="icon flaticon-phone-call"></span>
+												<strong>Phone</strong>
+												<a href="tel:+966(0)112111859">+966(0) 11 211 1859</a>
+											</li>
+											<li>
+												<span class="icon flaticon-email-1"></span>
+												<strong>E-Mail</strong>
+												<a href="mailto:Info@B2BArena.Net">Info@B2BArena.Net</a>
+											</li>
+										</ul>
+										<!-- Social Box -->
+										<ul class="social-box">
+											<li><a href="#" class="fab fa-facebook-f"></a></li>
+											<li><a href="#" class="fab fa-twitter"></a></li>
+											<li><a href="#" class="fab fa-instagram"></a></li>
+											<li><a href="#" class="fab fa-google-plus-g"></a></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Footer Bottom -->
+				<div class="footer-bottom">
+					<div class="auto-container">
+						<div class="row clearfix">
+							<!-- Column -->
+							<div class="column col-lg-6 col-md-12 col-sm-12">
+								<div class="copyright">Copyright &copy; 2022 by B2B Arena. All Rights Reserved.
+								</div>
+							</div>
+							<!-- Column -->
+							<div class="column col-lg-6 col-md-12 col-sm-12">
+								<ul class="footer-nav">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Services</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+	</div>
+	<!--End pagewrapper-->
+
+
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<!--  datatables -->
+	<script src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
+	<script src=" https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
+
+
+	<!--datatables  -->
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/tilt.jquery.min.js"></script>
+	<script src="js/jquery.paroller.min.js"></script>
+	<script src="js/owl.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/nav-tool.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/script.js"></script>
+
+	<script src='https://unpkg.com/fullcalendar@5.1.0/main.min.js'></script>
+
+
+	<script>
+		$(document).ready(function () {
+			$('.datatable').DataTable({
+				"language": {
+					"url": "//cdn.datatables.net/plug-ins/1.12.0/i18n/en-GB.json"
+				},
+				dom: 'Bfrtip',
+				buttons: [
+					'copy', 'csv', 'excel', 'pdf', 'print'
+				]
+
+
+			});
+		});
+
+
+
+
+
+	</script>
+
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var calendarEl = document.getElementById('calendar');
+
+			var calendar = new FullCalendar.Calendar(calendarEl, {
+				initialView: 'dayGridMonth',
+				initialDate: '2022-07-01',
+				headerToolbar: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'dayGridMonth,timeGridWeek,timeGridDay'
+				},
+
+
+				height: 'auto',
+				events: [
+					{
+						title: 'All Day Event',
+						start: '2022-07-11'
+					},
+					{
+						title: 'Long Event',
+						start: '2022-07-01',
+					},
+					{
+						groupId: '999',
+						title: 'Repeating Event',
+						start: '2022-07-01'
+					},
+					{
+						groupId: '999',
+						title: 'Repeating Event',
+						start: '2022-07-01'
+					},
+					{
+						title: 'Conference',
+						start: '2022-07-09',
+						end: '2022-07-13'
+					},
+					{
+						title: 'Meeting',
+						start: '2022-07-12T10:30:00',
+						end: '2022-07-12T12:30:00'
+					},
+					{
+						title: 'Lunch',
+						start: '2022-07-12T12:00:00'
+					},
+					{
+						title: 'Meeting',
+						start: '2022-07-12T14:30:00'
+					},
+					{
+						title: 'Birthday Party',
+						start: '2022-07-13T07:00:00'
+					},
+					{
+						title: 'Click for Google',
+						url: 'http://google.com/',
+						start: '2022-07-28'
+					}
+				]
+			});
+
+			calendar.render();
+		});
+
+		let btnMonth = document.querySelector('.fc-dayGridMonth-button');
+		let btnWeek = document.querySelector('.fc-timeGridWeek-button');
+
+		window.addEventListener("load", function () {
+			btnMonth.classList.add('fc-button-active')
+			btnWeek.classList.remove('fc-button-active')
+		});
+
+
+	</script>
+
+
+</body>
+
+
+</html>
